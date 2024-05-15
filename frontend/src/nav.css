@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Spreads the nav bar across the top */
+    align-items: center;
+    padding: 10px 20px; /* Adds some padding for spacing */
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    /* flex-grow: 1; Ensures the left side takes all available space */
+  }
+
+  .navbar-logo {
+    width: 150px; /* Adjust this to control the logo's width */
+    height: auto; /* Maintains the aspect ratio */
+    margin-right: 20px; /* Adds spacing between logo and text */
+  }
+  
+  .navbar-right ul {
+    list-style-type: none; /* Removes bullet points from list */
+    display: flex; /* Flexbox to arrange links horizontally */
+    gap: 10px; /* Adds spacing between links */
+  }
+  
+  .navbar-right li {
+    display: inline; /* Ensures list items are in a row */
+  }
+  
+  .navbar-right a {
+    text-decoration: none; /* Removes underline from links */
+    color: #000; /* Default link color */
+  }
+  
+  .navbar-right a:hover {
+    text-decoration: underline yellow;; /* Adds underline on hover */
+  }
+  

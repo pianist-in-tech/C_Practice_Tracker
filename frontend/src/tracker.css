@@ -1,0 +1,76 @@
+/* Container styles */
+.practice-tracker {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  .practice-tracker h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .practice-tracker form {
+    margin-bottom: 20px;
+  }
+  
+  .practice-tracker form div {
+    margin-bottom: 10px;
+  }
+  
+  .practice-tracker form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .practice-tracker form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .practice-tracker form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .practice-tracker form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Practice session styles */
+  .practice-session {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .practice-session p {
+    margin: 5px 0;
+  }
+  
+  .practice-session button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .practice-session button:hover {
+    background-color: #c82333;
+  }
+  

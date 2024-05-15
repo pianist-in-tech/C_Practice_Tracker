@@ -1,0 +1,42 @@
+/* PracticeSuggestions.css */
+
+.practice-suggestions {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .practice-suggestions h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .topics-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .topic-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .topic-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .response-container {
+    margin-top: 20px;
+  }
+  
+  .response-list{
+    padding-left: 20px;
+  }

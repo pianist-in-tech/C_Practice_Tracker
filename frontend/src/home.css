@@ -1,0 +1,21 @@
+.home-content {
+    display: flex; /* Flexbox to separate into two halves */
+    justify-content: space-between; /* Ensures left and right sections have space */
+    padding: 20px; /* Padding around the content */
+  }
+  
+  .home-left {
+    flex: 1; /* Each half takes equal space */
+  }
+  
+  .home-right {
+    flex: 1; /* Right half takes equal space */
+    display: flex; /* Use flex to control layout */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Aligns content at the top */
+    align-items: center; /* Centers content horizontally */
+  }
+  
+  .home-right h1 {
+    margin-bottom: 20px; /* Adds space below the h1 to separate it from the GoogleLogin */
+  }
