@@ -1,6 +1,7 @@
 {
   "name": "my-new-app",
   "version": "0.1.0",
+  "homepage": "http://localhost:3000",
   "private": true,
   "dependencies": {
     "@react-oauth/google": "^0.12.1",

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.737b05d4.css",
+    "main.js": "/static/js/main.093db750.js",
+    "static/js/453.0a9f4b6c.chunk.js": "/static/js/453.0a9f4b6c.chunk.js",
+    "static/media/Tracker_logo.png": "/static/media/Tracker_logo.16f9dd184e2f8c9a85c2.png",
+    "index.html": "/index.html",
+    "main.737b05d4.css.map": "/static/css/main.737b05d4.css.map",
+    "main.093db750.js.map": "/static/js/main.093db750.js.map",
+    "453.0a9f4b6c.chunk.js.map": "/static/js/453.0a9f4b6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.737b05d4.css",
+    "static/js/main.093db750.js"
+  ]
+}
