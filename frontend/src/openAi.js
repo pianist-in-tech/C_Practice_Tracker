@@ -40,17 +40,28 @@ const topics = [
   },
 ];
 
-  const handleClick = async (prompt) => {
-    console.log(prompt); // Add this line to log the prompt
-    try {
-      // Modify the prompt to include instrument and proficiency
-      const modifiedPrompt = `${prompt} ${instrument} ${proficiency}`;
-      const result = await axios.post('http://localhost:3001/ai-endpoint/get-response', { prompt: modifiedPrompt });
-      setResponse(result.data); // Store OpenAI response in state
-    } catch (error) {
-      console.error('Error fetching OpenAI response:', error);
-    }
-  };
+const handleClick = async (prompt) => {
+  console.log(prompt); // Add this line to log the prompt
+  try {
+    // Modify the prompt to include instrument and proficiency
+    const modifiedPrompt = `${prompt} ${instrument} ${proficiency}`;
+    const result = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/ai-endpoint/get-response`, { prompt: modifiedPrompt });
+    setResponse(result.data); // Store OpenAI response in state
+  } catch (error) {
+    console.error('Error fetching OpenAI response:', error);
+  }
+};
+  // const handleClick = async (prompt) => {
+  //   console.log(prompt); // Add this line to log the prompt
+  //   try {
+  //     // Modify the prompt to include instrument and proficiency
+  //     const modifiedPrompt = `${prompt} ${instrument} ${proficiency}`;
+  //     const result = await axios.post('http://localhost:3001/ai-endpoint/get-response', { prompt: modifiedPrompt });
+  //     setResponse(result.data); // Store OpenAI response in state
+  //   } catch (error) {
+  //     console.error('Error fetching OpenAI response:', error);
+  //   }
+  // };
 
   return (
     <div className='practice-suggestions'>
