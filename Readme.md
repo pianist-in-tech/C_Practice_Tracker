@@ -1,4 +1,5 @@
-The Title of my app is Let's Practice! Tracker. https://tracker-front.onrender.com/home
+The Title of my app is Let's Practice! Tracker. 
+https://tracker-front.onrender.com
 The primary goal of the Music Practice Tracker project is to provide musicians with a comprehensive tool for tracking their practice sessions and scheduling rehearsals. The project aims to achieve the following objectives:
 - Facilitate Practice Management: Enable musicians to log their practice sessions, including details such as date, time, duration, notes. This helps musicians keep track of their practice routines and monitor their improvement over time.
 Personalized Practice Suggestions: Utilize the OpenAI API to offer personalized practice suggestions based on musicians' skill levels, goals, and practice history. This assists musicians in identifying areas for improvement and tailoring their practice sessions to focus on specific techniques, repertoire, or musical concepts.
