@@ -1,4 +1,4 @@
-
+//extends the built-in Error class, is used as the base class for all custom errors in the file
 class ExpressError extends Error {
     constructor(message, status) {
       super();
